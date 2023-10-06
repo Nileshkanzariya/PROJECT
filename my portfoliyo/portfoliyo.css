@@ -1,0 +1,566 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid ; */
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* *****************navbar start****************** */
+
+
+.navbar
+
+{
+    display: grid;
+    grid-template-columns: 40fr 50fr 10fr;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.start
+{
+    padding-left: 0px;
+    color: black;
+    cursor: pointer;
+
+}
+
+.start h3
+{
+    padding-left: 70px;
+    padding-top: 7px;
+}
+
+.about
+
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 200px 10px 200px;
+}
+
+.about p
+{
+    text-align: center;
+    font-weight: bold;
+     
+}
+
+.about a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+.about a:hover
+{
+    color: coral;
+}
+
+
+
+.bar
+{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+.start:hover
+{
+    color: #fff;
+}
+
+.about p:hover
+{
+    color: #fff;
+}
+
+/* *************navbar end************** */
+
+
+/* ***************navbar2 start****************** */
+
+.navbar2
+{
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.free
+{
+    padding-top: 100px;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* .line
+{
+   
+} */
+
+.halp
+{
+    padding-top: 30px;
+    font-size: 23px;
+    color: #ffffffb9;
+}
+
+.find
+
+{
+    padding:40px 0 100px 0;
+}
+.find button
+{
+    padding:20px 40px 20px 40px;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: coral;
+    color: #fff;
+    border: none;
+}
+
+
+.find button:hover
+{
+    background-color: rgba(38, 34, 34, 0.262);
+}
+
+/* ********************navbar2 end******************* */
+
+
+/* *****************main1 start********************* */
+
+.main1
+{
+    text-align: center;
+    background-color: coral;
+}
+
+.what
+{
+    padding-top: 100px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.has
+{
+    padding-top: 40px;
+    font-size: 20px;
+    color: #ffffffc7;
+}
+
+.get
+{
+    padding:30px 0 100px 0;
+}
+
+.get button
+{
+    padding:20px 40px 20px 40px;
+    font-weight: bold;
+    border-radius: 100px;
+    border: none;
+    font-size: 15px;
+}
+
+.get button:hover
+{
+    background-color: #ffffffd1;
+}
+
+/* ***************main1 end***************** */
+
+
+
+/* ***************at start*********** */
+
+.main2 
+{
+    margin-bottom: 120px;
+}
+
+.your 
+{
+    display: grid;
+    justify-content: center;
+}
+
+.red2
+{
+     height: 6px;
+    width: 50px; 
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+
+
+.at
+{
+    /* text-align: center; */
+    padding: 100px 0 100px 0;
+}
+.at h4
+{
+    font-size: 50px;
+}
+
+/* *************at end************* */
+
+
+/* ****************at 1 start*********** */
+
+
+.at1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sturdy
+{
+    padding: 10px;
+}
+.sturdy .daymon
+{
+    text-align: center;
+    font-size: 40px;
+    color: coral;
+}
+.sturdy .our
+{
+    text-align: center;
+}
+
+.sturdy .our h3
+{
+    padding-top:7px ;
+    font-size: 25px;
+}
+.sturdy .our p
+{
+    font-size: large;
+}
+
+
+
+.upto
+{
+    padding: 10px;
+}
+
+.upto .leptop
+{
+    text-align: center;
+    font-size: 40px;
+    color: coral;
+}
+
+.upto .all
+{
+    text-align: center;
+}
+
+.upto .all h3
+{
+    padding-top:7px ;
+    font-size: 25px;
+}
+.upto .all p
+{
+    font-size: large;
+}
+
+.ready
+{
+    padding: 10px;
+
+}
+
+.ready .world
+{
+    text-align: center;
+    font-size: 40px;
+    color: coral;
+}
+
+.ready .you
+{
+    text-align: center;
+}
+
+.ready .you h3
+{
+    padding-top:7px ;
+    font-size: 25px;
+}
+.ready .you p
+{
+    font-size: large;
+}
+
+
+.made
+{
+    padding: 10px;
+}
+
+.made .hart
+{
+    text-align: center;
+    font-size: 40px;
+    color: coral;
+}
+
+.made .really
+{
+    text-align: center;
+}
+
+.made .really h3
+{
+    padding-top: 7px;
+    font-size: 25px;
+}
+
+.made .really p
+{
+    font-size: large;
+}
+
+
+
+/* ******************at 1 end************* */
+
+
+/* *********************project start************* */
+
+
+.project
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pro1
+{
+    background-image: url(imges/1.jpg);
+    background-size: cover;
+    height: 250px;
+    position: relative;
+}
+.x1
+{
+    background-image: url(imges/2.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.x2
+{
+    background-image: url(imges/3.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.x3
+{
+    background-image: url(imges/4.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.x4
+{
+    background-image: url(imges/5.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.x5
+{
+    background-image: url(imges/6.jpg);
+    background-size: cover;
+    height: 250px;
+}
+
+.name
+{
+    height:250px;
+    width: 100%;
+    background-color: rgba(207, 14, 33, 0.877);
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+.name p
+{
+    color: #ffffffac;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+.name h2
+{
+    color: #fff;
+    text-align: center;
+}
+.pro1:hover .name
+{
+    display: block;
+    opacity: 1;
+}
+
+/* **************project end************* */
+
+
+
+/* ************************now start************************  */
+
+.now
+{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.882);
+    text-align: center;
+    margin-top: 120px;
+}
+
+.now .no
+{
+    color: #fff;
+    padding-top: 100px;
+}
+
+.now button
+
+{
+    padding: 15px 50px 15px 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+
+/* ******************************now end************************** */
+
+
+/* *************************form start****************** */
+
+
+.futer
+{
+    padding: 80px 300px 80px 300px ;
+}
+
+.let
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 0 130px 0 130px ;
+}
+
+.red
+{
+    height: 6px;
+    width: 50px;
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.let h2 
+{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.let p 
+{
+    font-size: larger;
+}
+
+.form
+{
+    padding: 0 180px 0 180px ;
+    margin-top: 30px;
+}
+
+.form input 
+{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.form textarea 
+{
+    width: 100%; 
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 14px;
+}
+
+.form button 
+{
+    width: 100%;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+}
+
+.last
+{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.last i 
+{
+    color: gray;
+}
+
+
+input:focus
+{
+    outline: 5px solid orange   ;
+}
+
+
+/* *************************form end****************** */
+
+.gray1
+{
+    background-color: rgba(128, 128, 128, 0.31);
+    padding: 50px 0 50px 0 ;
+    text-align: center;
+}
+
+
+

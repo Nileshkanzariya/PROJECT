@@ -1,0 +1,134 @@
+@media(max-width:1350px)
+{
+    .contry,
+    .explor
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .contry{
+        justify-content: space-evenly;
+    }
+
+    .fa-bars-staggered
+    {
+        visibility: visible;
+        float: right;
+    }
+
+
+    .never 
+    {
+        display: none;
+    }
+
+
+    .nav 
+    {
+        display: block;
+    }
+
+    .g1 
+    {
+        width: 60%;
+    }
+
+    .i6 
+    {
+        padding: 20px;
+    }
+ 
+
+}
+
+
+@media(max-width:1000px)
+
+
+{
+    .num1,
+    .icon1{
+        width: 45%;
+    }
+
+    .i3,.one 
+    {
+        display: none;
+    }
+
+    .l0
+    
+    {
+        font-size: 15px;
+    }
+
+    .l1 
+    {
+        font-size: 55px;
+    }
+    .girl-text
+    {
+        font-size: 25px;
+    }
+
+    .solo1,
+    .guideli
+    {
+        width: 46%;
+    }
+
+
+    .cali1,
+    .pack1,
+    .pack2
+    {
+        width: 100%;
+        /* gap: 50px; */
+    }
+
+    .pack2{
+        margin-top: 50px;
+    }
+
+    .insta1,.insta .x1,.insta .x2,.insta .x3,.insta .x4
+    {
+        width: 45%;
+    }
+
+    .futar1,
+    .futar2{
+        width:100% ;
+    }
+
+}
+
+@media(max-width:500px)
+{
+    .num1,
+    .icon1,
+    .g1,
+    .insta1,.insta .x1,.insta .x2,.insta .x3,.insta .x4,
+    .company
+
+    
+    {
+        width: 100%;
+    }
+    .girl-text
+    {
+        font-size: 17px;
+    }
+
+    .solo1 
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .guideli{
+width: 70%;
+    }
+
+    .pack2 a{
+    }
+}
