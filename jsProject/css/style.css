@@ -1,0 +1,139 @@
+#pk
+{
+    text-align: center;
+    border: 2px solid;
+    padding: 15px;
+}
+#np
+{
+    height: 30px;
+    font-size: 20px;
+}
+#ol
+{
+    
+}
+
+#abc {
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#jk,
+#dk {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#cg {
+    color: blue;
+    font-size: 25px;
+
+}
+
+.bf {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+
+#nil1,
+#nil2,
+#nil3,
+#nil4,
+#nil5,
+#nil6,
+#nil7 {
+    margin-left: 50px;
+}
+
+.p2 {
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+#bt1 {
+    padding: 5px 30px 5px 30px;
+    font-size: 20px;
+    margin-left: 144px;
+}
+
+#bold,
+#bolder {
+    color: blue;
+    font-size: 20px;
+}
+
+/********* slider javascript************ */
+
+.slider {
+    background-color: #000;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding:  25px 0px;
+   
+}
+
+.swiper {
+    padding-bottom: 60px !important;
+    /* height: 250px; */
+}
+
+.swiper .swiper-wrapper {
+    align-items: center;
+}
+
+.swiper .swiper-slide {
+    border-radius: 5px;
+    height: 180px !important;
+    background-color: #000;
+    border: 1px solid #fff;
+    transition: 0.2s;
+}
+
+.swiper .swiper-slide.active {
+    height: 230px !important;
+}
+
+.swiper .prev,
+.swiper .next {
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 95%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.swiper .prev:hover,
+.swiper .next:hover {
+    opacity: 1;
+}
+
+.swiper .prev svg,
+.swiper .next svg {
+    width: 50px;
+    height: 38px;
+}
+
+.swiper .prev svg path,
+.swiper .next svg path {
+    fill: #fff;
+}
+
+.swiper .prev {
+    left: 35%;
+}
+
+.swiper .next {
+    right: 35%;
+}
